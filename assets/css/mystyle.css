@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+.register-page{
+    height: 100vh;
+    background-color: rgb(112, 146, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form{
+    width: 900px;
+    height: 580px;
+    display: flex;
+    
+}
+
+
+
+/* left side */
+.form-left{
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+.form-left h2{
+    color: rgb(93, 168, 248);
+    margin-bottom: 30px;  
+}
+
+
+.name-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-group input{
+    width: 48% !important;
+}
+
+
+.emp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.emp input{
+    width: 48% !important;
+}
+
+.emp select{
+    width: 48% !important;
+}
+
+
+.form-left input, select{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+   
+}
+
+.form-left select{
+    color: black;
+}
+
+/* right side */
+
+.form-right{
+    background-color: rgb(74, 135, 241);
+    width: 50%;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+.form-right h2{
+    color: rgb(250, 250, 250);
+    margin-bottom: 30px; 
+}
+
+
+.zip-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.zip-group input{
+    width: 48% !important;
+}
+
+.zip-group select{
+    width: 48% !important;
+}
+
+
+.nmbr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nmbr input{
+    width: 48% !important;
+}
+
+.nmbr select{
+    width: 48% !important;
+}
+
+
+.form-right input, select{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid ;
+    
+}
+
+.form-right input{
+    background-color: rgb(74, 135, 241);
+    color: #fff;
+}
+
+.form-right select{
+    background-color: rgb(74, 135, 241);
+    color: #fff;
+}
+
+
+
+.form-right input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+
+ .terms{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    
+    
+}
+.terms input{ 
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: rgb(74, 135, 241);
+    border: #fff;
+    cursor: pointer; 
+
+    
+}
+.terms span{
+    font-size: 15px;
+    color: #fff;
+    text-indent: 7px;
+
+}
+
+
+.terms a{
+    color:#fff
+}
+
+button{
+    width: 130px;
+    height: 31px;
+    border-radius: 40px;
+    background-color: #fff;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
